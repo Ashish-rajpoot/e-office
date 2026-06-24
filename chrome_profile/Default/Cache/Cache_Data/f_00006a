@@ -1,0 +1,1692 @@
+{
+    "fileCreated": [
+        {
+            "label": "menubar.fileCreated.send",
+            "commandName": "Send",
+            "restrictedForMultiple": false
+        },
+        {
+            "label": "menubar.fileCreated.createVolume",
+            "commandName": "CreateVolume",
+            "restrictedForMultiple": true,
+            "restrictedForNature": "E"
+        },
+        {
+            "label": "menubar.fileCreated.createPart",
+            "commandName": "CreatePart",
+            "restrictedForMultiple": true
+        },
+        {
+            "label": "menubar.fileCreated.close",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileCreated.close",
+                    "commandName": "Close",
+                    "restrictedForMultiple": false
+                }
+            ]
+        }
+    ],
+    "fileCreatedSection": [
+        {
+            "label": "menubar.fileCreated.pullup",
+            "commandName": "PullUp"
+        }
+    ],
+    "fileCreatedHierachy": [
+        {
+            "label": "menubar.fileCreated.pullup",
+            "commandName": "PullUp"
+        }
+    ],
+    "fileInbox": [
+        {
+            "label": "menubar.fileInbox.receiveFile",
+            "commandName": "ReceiveDocument",
+            "restrictedForMultiple": false,
+            "restrictedForNature": "E"
+        },
+        {
+            "label": "menubar.fileInbox.send",
+            "commandName": "Send",
+            "restrictedForMultiple": false
+        },
+        {
+            "label": "menubar.fileInbox.sendBackFile",
+            "commandName": "SendBack",
+            "restrictedForMultiple": false
+        },
+        {
+            "label": "menubar.fileInbox.moveTo",
+            "commandName": "MoveToFileFolders",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileInbox.myFolders",
+                    "commandName": "MoveToFileFolders",
+                    "isDynamicMenu": true,
+                    "restrictedForAllPost": true
+                },
+                {
+                    "label": "menubar.fileInbox.manageFolder",
+                    "commandName": "ManageFolderFileInbox",
+                    "restrictedForAllPost": true
+                },
+                {
+                    "label": "menubar.fileInbox.createNewFolder",
+                    "commandName": "CreateNewFolderFileInbox",
+                    "restrictedForAllPost": true
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileInbox.createVolume",
+            "commandName": "CreateVolume",
+            "restrictedForMultiple": true,
+            "restrictedForNature": "E"
+        },
+        {
+            "label": "menubar.fileInbox.createPart",
+            "commandName": "CreatePart",
+            "restrictedForMultiple": true
+        },
+        {
+            "label": "menubar.fileView.parkFile",
+            "commandName": "ParkFile",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileInbox.close",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileInbox.close",
+                    "commandName": "Close",
+                    "restrictedForMultiple": false
+                },
+                {
+                    "label": "menubar.fileInbox.sendForClosingApproval",
+                    "commandName": "SendForClosingApproval",
+                    "restrictedForMultiple": false
+                }
+            ]
+        }
+    ],
+    "fileInboxSection": [
+        {
+            "label": "menubar.fileInbox.pullup",
+            "commandName": "PullUp"
+        }
+    ],
+    "fileInboxHierarchy": [
+        {
+            "label": "menubar.fileInbox.pullup",
+            "commandName": "PullUp"
+        }
+    ],
+    "fileClosingApproval": [
+        {
+            "label": "menubar.fileClosingApproval.close",
+            "commandName": "CloseFile",
+            "emit": true
+        }
+    ],
+    "fileReopeningApproval": [
+        {
+            "label": "menubar.fileReopeningApproval.reOpen",
+            "commandName": "ReOpenFile",
+            "emit": true
+        }
+    ],
+    "fileSent": [
+        {
+            "label": "menubar.fileSent.createPart",
+            "commandName": "CreatePart",
+            "restrictedForMultiple": true
+        },
+        {
+            "label": "menubar.fileSent.pullBack",
+            "commandName": "MultiplePullBack",
+            "emit": true
+        }
+    ],
+    "fileView": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.draft",
+            "restrictedForNature": "P",
+            "items": [
+                {
+                    "commandName": "ViewCreatedDrafts",
+                    "label": "menubar.fileView.createdDraft",
+                    "emit": true,
+                    "restrictedForNature": "P"
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileView.more",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.actionDetails",
+                    "emit": true,
+                    "commandName": "ViewActionDetails"
+                }
+            ]
+        }
+    ],
+     "fileViewMerged": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.draft",
+            "restrictedForNature": "P",
+            "items": [
+                {
+                    "commandName": "ViewCreatedDrafts",
+                    "label": "menubar.fileView.createdDraft",
+                    "emit": true,
+                    "restrictedForNature": "P"
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileView.review",
+            "visible": true,
+            "commandName": "Review",
+            "emit":"true",
+            "restrictedForAllPost": "true"
+           
+        },
+        {
+            "label": "menubar.fileView.more",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.actionDetails",
+                    "emit": true,
+                    "commandName": "ViewActionDetails"
+                },
+                {
+                    "label": "menubar.fileView.mergeDetails",
+                    "commandName": "MergeDetailFile",
+                    "emit": true
+                }
+            ]
+        }
+    ],
+    "fileViewInbox": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.draft",
+            "restrictedForNature": "P",
+            "items": [
+                {
+                    "label": "menubar.fileView.createNewDraft",
+                    "commandName": "CreateDraft",
+                    "queryParams": {
+                        "source": "FILE"
+                    },
+                    "restrictedForNature": "P"
+                },
+                {
+                    "commandName": "ViewCreatedDrafts",
+                    "label": "menubar.fileView.createdDraft",
+                    "emit": true,
+                    "restrictedForNature": "P"
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileView.edit",
+            "commandName": "EditFile"
+        },
+        {
+            "label": "menubar.fileView.send",
+            "commandName": "Send",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.sendBackFile",
+            "commandName": "SendBack",
+            "restrictedForMultiple": true,
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.convertFile",
+            "commandName": "ConvertFile",
+            "restrictedForNature": "E",
+            "emit": true
+        },
+        {
+            "commandName": "ViewLinkedFiles",
+            "label": "menubar.fileView.viewlinkedFile",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.attach",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.attachFile",
+                    "commandName": "ViewAttachedFiles",
+                    "emit": true
+                },
+                {
+                    "label": "menubar.fileView.attachReceipt",
+                    "commandName": "ViewAttachedReceipts",
+                    "emit": true
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileView.parkFile",
+            "emit": true,
+            "commandName": "ParkFile"
+        },
+        {
+            "label": "menubar.fileView.close",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileCreated.close",
+                    "commandName": "Close",
+                    "applicableForRoles": [
+                        "CLOSING_APPROVER"
+                    ]
+                },
+                {
+                    "label": "menubar.fileCreated.SendForClosingApproval",
+                    "commandName": "SendForClosingApproval",
+                    "restrictedForRoles": [
+                        "CLOSING_APPROVER"
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileView.review",
+            "visible": true,
+            "commandName": "Review",
+            "emit":"true",
+            "restrictedForAllPost": "true"
+           
+        },
+        {
+            "label": "menubar.fileView.dispatchFile",
+            "commandName": "DispatchDocument",
+            "restrictedForNature": "E"
+        },
+         {
+            "label": "menubar.fileView.publish",
+            "commandName": "PublishDocument",
+            "applicableForRoles": [
+                        "PFMS_PUBLISHER"
+                    ],
+            "emit": true
+            
+            
+        },
+        {
+            "label": "menubar.fileView.more",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileInbox.createPart",
+                    "commandName": "CreatePart"
+                },
+                {
+                    "label": "menubar.fileView.createVolume",
+                    "commandName": "CreateVolume",
+                    "restrictedForNature": "E"
+                },
+                {
+                    "label": "menubar.fileView.actionDetails",
+                    "emit": true,
+                    "commandName": "ViewActionDetails"
+                },
+                {
+                    "label": "menubar.fileView.merge",
+                    "restrictedForNature": "E",
+                    "items": [
+                        {
+                            "label": "menubar.fileView.mergeFile",
+                            "commandName": "Merge"
+                        },
+                        {
+                            "label": "menubar.fileView.mergeDetails",
+                            "commandName": "MergeDetailFile",
+                            "emit": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "fileViewCreated": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.draft",
+            "restrictedForNature": "P",
+            "items": [
+                {
+                    "label": "menubar.fileView.createNewDraft",
+                    "commandName": "CreateDraft",
+                    "queryParams": {
+                        "source": "FILE"
+                    },
+                    "restrictedForNature": "P"
+                },
+                {
+                    "commandName": "ViewCreatedDrafts",
+                    "label": "menubar.fileView.createdDraft",
+                    "emit": true,
+                    "queryParams": {
+                        "source": "FILE"
+                    },
+                    "restrictedForNature": "P"
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileView.edit",
+            "commandName": "EditFile"
+        },
+        {
+            "label": "menubar.fileView.send",
+            "commandName": "Send",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.convertFile",
+            "commandName": "ConvertFile",
+            "restrictedForNature": "E",
+            "emit": true
+        },
+        {
+            "commandName": "ViewLinkedFiles",
+            "label": "menubar.fileView.viewlinkedFile",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.attach",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.attachFile",
+                    "commandName": "ViewAttachedFiles",
+                    "emit": true
+                },
+                {
+                    "label": "menubar.fileView.attachReceipt",
+                    "commandName": "ViewAttachedReceipts",
+                    "emit": true
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileView.dispatchFile",
+            "commandName": "DispatchDocument",
+            "restrictedForNature": "E"
+        },
+        {
+            "label": "menubar.fileCreated.close",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileCreated.close",
+                    "commandName": "Close"
+                }
+            ]
+        }, 
+        {
+            "label": "menubar.fileView.review",
+            "visible": true,
+            "commandName": "Review",
+            "emit":"true",
+            "restrictedForAllPost": "true"
+           
+        },
+        {
+            "label": "menubar.fileView.more",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileInbox.createPart",
+                    "commandName": "CreatePart"
+                },
+                {
+                    "label": "menubar.fileView.createVolume",
+                    "commandName": "CreateVolume",
+                    "restrictedForNature": "E"
+                },
+                {
+                    "label": "menubar.fileView.merge",
+                    "restrictedForNature": "E",
+                    "items": [
+                        {
+                            "label": "Merge File",
+                            "commandName": "Merge"
+                        },
+                        {
+                            "label": "Merge Detail",
+                            "commandName": "MergeDetailFile",
+                            "emit": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "fileViewParked": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.draft",
+            "restrictedForNature": "P",
+            "items": [
+                {
+                    "label": "menubar.fileView.createNewDraft",
+                    "commandName": "CreateDraft",
+                    "queryParams": {
+                        "source": "FILE"
+                    },
+                    "restrictedForNature": "P"
+                },
+                {
+                    "commandName": "ViewCreatedDrafts",
+                    "label": "menubar.fileView.createdDraft",
+                    "emit": true,
+                    "restrictedForNature": "P"
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileView.review",
+            "visible": true,
+            "commandName": "Review",
+            "emit":"true",
+            "restrictedForAllPost": "true"
+           
+        },
+        {
+            "label": "menubar.fileView.edit",
+            "commandName": "EditFile"
+        },
+        {
+            "commandName": "ViewLinkedFiles",
+            "label": "menubar.fileView.viewlinkedFile",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.attach",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.attachFile",
+                    "commandName": "ViewAttachedFiles",
+                    "emit": true
+                },
+                {
+                    "label": "menubar.fileView.attachReceipt",
+                    "commandName": "ViewAttachedReceipts",
+                    "emit": true
+                }
+            ]
+        },
+         {
+            "label": "menubar.fileView.publish",
+            "commandName": "PublishDocument",
+            "applicableForRoles": [
+                        "PFMS_PUBLISHER"
+                    ],
+            "emit": true
+            
+            
+        },
+        {
+            "label": "menubar.fileView.more",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.actionDetails",
+                    "emit": true,
+                    "commandName": "ViewActionDetails"
+                }
+            ]
+        }
+    ],
+    "fileViewClosed": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "emit": true
+        },
+        
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "commandName": "ViewLinkedFiles",
+            "label": "menubar.fileView.viewlinkedFile",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.actionDetails",
+            "emit": true,
+            "commandName": "ViewActionDetails"
+        }
+    ],
+    "fileViewSent": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileSent.createPart",
+            "commandName": "CreatePart"
+        },
+        {
+            "label": "menubar.fileView.actionDetails",
+            "emit": true,
+            "commandName": "ViewActionDetails"
+        },
+        {
+            "commandName": "ViewLinkedFiles",
+            "label": "menubar.fileView.viewlinkedFile",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.review",
+            "visible": true,
+            "commandName": "Review",
+            "emit":"true",
+            "restrictedForAllPost": "true"
+           
+        },
+        {
+            "label": "menubar.fileView.attach",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.attachFile",
+                    "commandName": "ViewAttachedFiles",
+                    "emit": true
+                },
+                {
+                    "label": "menubar.fileView.attachReceipt",
+                    "commandName": "ViewAttachedReceipts",
+                    "emit": true
+                }
+            ]
+        }
+    ],
+    "fileViewClosingApproval": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "emit": true,
+            "visible": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.actionDetails",
+            "emit": true,
+            "commandName": "ViewActionDetails"
+        }
+    ],
+    "fileViewReopeningApproval": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "visible": true,
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "commandName": "ViewLinkedFiles",
+            "label": "menubar.fileView.viewlinkedFile",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.actionDetails",
+            "emit": true,
+            "commandName": "ViewActionDetails"
+        }
+    ],
+    "fileViewApprovalRequest": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "visible": true,
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "commandName": "ViewLinkedFiles",
+            "label": "menubar.fileView.viewlinkedFile",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.parkFile",
+            "items": [
+                {
+                    "label": "menubar.fileView.parkedFileHistory",
+                    "commandName": "ViewParkFileHistory"
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileView.close",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.closeHistory",
+                    "commandName": "fileViewCloseHistory",
+                    "emit": true,
+                    "queryParams": {
+                        "triggeredBy": "FileInner",
+                        "entity": "File"
+                    }
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileView.more",
+            "visible": true,
+            "items": []
+        }
+    ],
+    "fileViewConversion": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "visible": true,
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        }
+    ],
+    "migratedFileView": [
+        {
+            "label": "menubar.migratedFileView.edit",
+            "commandName": "EditMigratedFile"
+        },
+        {
+            "label": "menubar.migratedFileView.finalize",
+            "commandName": "FinalizeMigration",
+            "emit": true
+        }
+    ],
+    "receiptInbox": [
+        {
+            "label": "menubar.receiptInbox.receive",
+            "commandName": "ReceiveDocument",
+            "restrictedForNature": "E"
+        },
+        {
+            "label": "menubar.receiptInbox.putinafile",
+            "commandName": "Enclose",
+            "queryParams": {
+                "docType": "R",
+                "caller": "encloseable"
+            },
+            "restrictedForMultiple": false,
+            "restrictedForRoles": [
+                "CRU"
+            ]
+        },
+        {
+            "label": "menubar.receiptInbox.moveTo",
+            "items": [
+                {
+                    "label": "menubar.receiptInbox.myFolders",
+                    "commandName": "MoveToReceiptFolders",
+                    "isDynamicMenu": true,
+                    "restrictedForAllPost": true
+                },
+                {
+                    "label": "menubar.receiptInbox.manageFolder",
+                    "commandName": "ManageFolderReceiptInbox",
+                    "restrictedForAllPost": true
+                },
+                {
+                    "label": "menubar.receiptInbox.createNewFolder",
+                    "commandName": "CreateNewFolderReceiptInbox",
+                    "restrictedForAllPost": true
+                }
+            ]
+        },
+        {
+            "label": "menubar.fileInbox.send",
+            "commandName": "Send",
+            "restrictedForMultiple": false
+        },
+        {
+            "label": "menubar.fileInbox.sendBackFile",
+            "commandName": "SendBack",
+            "restrictedForMultiple": false
+        },
+        {
+            "label": "menubar.receiptInbox.copy",
+            "commandName": "Copy",
+            "emit": true,
+            "restrictedForMultiple": true,
+            "restrictedForExternal": true
+        },
+        {
+            "label": "menubar.receiptInbox.close",
+            "commandName": "Close"
+        },
+        {
+            "label": "menubar.receiptInbox.download",
+            "commandName": "OfflineDownload",
+            "emit": true,
+            "restrictedForAllPost": true
+        }
+    ],
+    "receiptInboxSection": [
+        {
+            "label": "menubar.receiptInbox.pullup",
+            "commandName": "PullUp"
+        }
+    ],
+    "receiptInboxHierarchy": [
+        {
+            "label": "menubar.receiptInbox.pullup",
+            "commandName": "PullUp"
+        }
+    ],
+    "receiptCreated": [
+        {
+            "label": "menubar.receiptCreated.send",
+            "commandName": "Send",
+            "restrictedForMultiple": false
+        },
+        {
+            "label": "menubar.receiptCreated.putinafile",
+            "commandName": "Enclose",
+            "queryParams": {
+                "docType": "R",
+                "caller": "encloseable"
+            },
+            "restrictedForMultiple": false,
+            "restrictedForRoles": [
+                "CRU"
+            ]
+        },
+        {
+            "label": "menubar.receiptCreated.copy",
+            "commandName": "Copy",
+            "emit": true,
+            "restrictedForMultiple": true
+        },
+        {
+            "label": "menubar.receiptCreated.generateAcknowledgement",
+            "commandName": "GenerateAcknowledgement",
+            "restrictedForMultiple": true
+        },
+        {
+            "label": "menubar.receiptCreated.close",
+            "commandName": "Close"
+        }
+    ],
+    "receiptCreatedSection": [
+        {
+            "label": "menubar.receiptCreated.pullup",
+            "commandName": "PullUp"
+        }
+    ],
+    "receiptCreatedHierarchy": [
+        {
+            "label": "menubar.receiptCreated.pullup",
+            "commandName": "PullUp"
+        }
+    ],
+   
+    "receiptSent": [
+        {
+            "label": "menubar.receiptSent.send",
+            "commandName": "Send",
+            "emit": true
+        },
+        {
+            "label": "menubar.receiptSent.copy",
+            "commandName": "Copy",
+            "restrictedForMultiple": true,
+            "restrictedForExternal": true
+        },
+        {
+            "label": "menubar.receiptSent.generateAcknowledgement",
+            "commandName": "GenerateAcknowledgement",
+            "restrictedForMultiple": true
+        },
+        {
+            "label": "menubar.receiptSent.pullBack",
+            "commandName": "MultiplePullBack",
+            "emit": true
+        }
+    ],
+    "receiptView": [
+        {
+            "icon": "./assets/images/ico_receipt_home.png",
+            "label": "Receipt",
+            "commandName": "GoReceiptHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.receiptSent.copy",
+            "commandName": "Copy",
+            "restrictedForExternal": true
+        },
+        {
+            "label": "menubar.fileView.actionDetails",
+            "emit": true,
+            "commandName": "ViewActionDetails"
+        },
+        {
+            "label": "menubar.fileView.attach",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.attachFile",
+                    "commandName": "ViewAttachedFiles",
+                    "emit": true
+                },
+                {
+                    "label": "menubar.fileView.attachReceipt",
+                    "commandName": "ViewAttachedReceipts",
+                    "emit": true
+                }
+            ]
+        },
+        {
+            "label": "menubar.receiptView.close",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.closeHistory",
+                    "commandName": "ViewReceiptClosedHistory",
+                    "emit": true
+                }
+            ]
+        }
+    ],
+    "receiptViewInbox": [
+        {
+            "icon": "./assets/images/ico_receipt_home.png",
+            "label": "Receipt",
+            "commandName": "GoReceiptHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.receiptSent.copy",
+            "commandName": "Copy",
+            "restrictedForExternal": true
+        },
+        {
+            "label": "menubar.receiptView.send",
+            "commandName": "Send",
+            "emit": true
+        },
+        {
+            "label": "menubar.receiptView.sendBack",
+            "commandName": "SendBack",
+            "emit": true
+        },
+        {
+            "label": "menubar.receiptInbox.putinafile",
+            "commandName": "Enclose",
+            "restrictedForRoles": [
+                "CRU"
+            ],
+            "queryParams": {
+                "docType": "R",
+                "caller": "encloseable"
+            }
+        },
+        {
+            "label": "menubar.receiptView.draft",
+            "restrictedForNature": "P",
+            "items": [
+                {
+                    "label": "menubar.receiptView.createNewDraft",
+                    "commandName": "CreateDraft",
+                    "restrictedForRoles": [
+                        "CRU"
+                    ],
+                    "queryParams": {
+                        "source": "RECEIPT"
+                    },
+                    "restrictedForNature": "P"
+                },
+                {
+                    "commandName": "ViewCreatedDrafts",
+                    "label": "menubar.receiptView.createdDraft",
+                    "emit": true,
+                    "restrictedForNature": "P",
+                    "restrictedForRoles": [
+                        "CRU"
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "menubar.receiptView.dispatchPhysical",
+            "commandName": "DispatchDocument",
+            "restrictedForNature": "E",
+            "restrictedForRoles": [
+                "CRU"
+            ]
+        },
+        {
+            "label": "menubar.receiptView.edit",
+            "commandName": "EditReceipt"
+        },
+        {
+            "label": "menubar.fileView.actionDetails",
+            "emit": true,
+            "commandName": "ViewActionDetails",
+            "restrictedForRoles": [
+                "CRU"
+            ]
+        },
+        {
+            "label": "menubar.fileView.attach",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.attachFile",
+                    "commandName": "ViewAttachedFiles",
+                    "emit": true,
+                    "restrictedForRoles": [
+                        "CRU"
+                    ]
+                },
+                {
+                    "label": "menubar.fileView.attachReceipt",
+                    "commandName": "ViewAttachedReceipts",
+                    "emit": true,
+                    "restrictedForRoles": [
+                        "CRU"
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "menubar.receiptView.convert",
+            "commandName": "ConvertReceipt",
+            "restrictedForNature": "E",
+            "emit": true
+        },
+        {
+            "label": "menubar.receiptView.close",
+            "commandName": "Close"
+        },
+        {
+            "label": "menubar.receiptView.download",
+            "commandName": "OfflineDownload",
+            "emit": true
+        }
+    ],
+    "receiptViewCreated": [
+        {
+            "icon": "./assets/images/ico_receipt_home.png",
+            "label": "Receipt",
+            "commandName": "GoReceiptHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.receiptSent.copy",
+            "commandName": "Copy"
+        },
+        {
+            "label": "menubar.receiptView.send",
+            "commandName": "Send",
+            "emit": true
+        },
+        {
+            "label": "menubar.receiptInbox.putinafile",
+            "commandName": "Enclose",
+            "restrictedForRoles": [
+                "CRU"
+            ],
+            "queryParams": {
+                "docType": "R",
+                "caller": "encloseable"
+            }
+        },
+        {
+            "label": "menubar.receiptView.edit",
+            "commandName": "EditReceipt"
+        },
+        {
+            "label": "menubar.fileView.attach",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.attachFile",
+                    "commandName": "ViewAttachedFiles",
+                    "emit": true,
+                    "restrictedForRoles": [
+                        "CRU"
+                    ]
+                },
+                {
+                    "label": "menubar.fileView.attachReceipt",
+                    "commandName": "ViewAttachedReceipts",
+                    "emit": true,
+                    "restrictedForRoles": [
+                        "CRU"
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "menubar.receiptView.convert",
+            "commandName": "ConvertReceipt",
+            "restrictedForNature": "E",
+            "emit": true
+        },
+        {
+            "label": "menubar.receiptView.draft",
+            "restrictedForNature": "P",
+            "items": [
+                {
+                    "label": "menubar.receiptView.createNewDraft",
+                    "commandName": "CreateDraft",
+                    "restrictedForRoles": [
+                        "CRU"
+                    ],
+                    "queryParams": {
+                        "source": "RECEIPT"
+                    },
+                    "restrictedForNature": "P"
+                },
+                {
+                    "commandName": "ViewCreatedDrafts",
+                    "label": "menubar.receiptView.createdDraft",
+                    "emit": true,
+                    "restrictedForNature": "P",
+                    "restrictedForRoles": [
+                        "CRU"
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "menubar.receiptView.dispatchPhysical",
+            "commandName": "DispatchDocument",
+            "restrictedForNature": "E",
+            "restrictedForRoles": [
+                "CRU"
+            ]
+        },
+        {
+            "label": "menubar.receiptView.close",
+            "commandName": "Close"
+        },
+        {
+            "label": "menubar.receiptCreated.generateAcknowledgement",
+            "commandName": "GenerateAcknowledgement",
+            "restrictedForMultiple": true
+        }
+    ],
+    "receiptViewSent": [
+        {
+            "icon": "./assets/images/ico_receipt_home.png",
+            "label": "Receipt",
+            "commandName": "GoReceiptHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.receiptSent.copy",
+            "commandName": "Copy",
+            "restrictedForExternal": true
+        },
+        {
+            "label": "menubar.receiptView.send",
+            "commandName": "Send",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.actionDetails",
+            "emit": true,
+            "commandName": "ViewActionDetails"
+        },
+        {
+            "label": "menubar.receiptSent.generateAcknowledgement",
+            "commandName": "GenerateAcknowledgement",
+            "restrictedForMultiple": true
+        },
+        {
+            "commandName": "ViewCreatedDrafts",
+            "label": "menubar.receiptView.createdDraft",
+            "emit": true,
+            "restrictedForNature": "P",
+            "restrictedForRoles": [
+                        "CRU"
+                    ]
+        },
+        {
+            "label": "menubar.fileView.attach",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.attachFile",
+                    "commandName": "ViewAttachedFiles",
+                    "emit": true,
+                    "restrictedForRoles": [
+                        "CRU"
+                    ]
+                },
+                {
+                    "label": "menubar.fileView.attachReceipt",
+                    "commandName": "ViewAttachedReceipts",
+                    "emit": true,
+                    "restrictedForRoles": [
+                        "CRU"
+                    ]
+                }
+            ]
+        }
+    ],
+    "receiptViewClosed": [
+        {
+            "icon": "./assets/images/ico_receipt_home.png",
+            "label": "Receipt",
+            "commandName": "GoReceiptHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.actionDetails",
+            "emit": true,
+            "commandName": "ViewActionDetails"
+        }
+    ],
+    "fileApprovalRequest": [
+        {
+            "label": "menubar.fileApprovalRequest.approve",
+            "emit": true,
+            "commandName": "Approve"
+        },
+        {
+            "label": "menubar.fileApprovalRequest.reject",
+            "emit": true,
+            "commandName": "Reject"
+        }
+    ],
+    "fileBulkClose": [
+        {
+            "label": "menubar.fileBulkClose.close",
+            "commandName": "Close",
+            "visible": false
+        },
+        {
+            "label": "menubar.fileBulkClose.sendForApproval",
+            "commandName": "SendForApproval",
+            "visible": false
+        }
+    ],
+    "dispatchOfficerSent": [
+        {
+            "label": "menubar.dispatchOfficerSent.createReminders",
+            "commandName": "CreateReminder",
+            "restrictedForMultiple": false,
+            "emit": true
+        },
+        {
+            "label": "menubar.dispatchOfficerSent.viewReminders",
+            "commandName": "ViewReminders",
+            "restrictedForMultiple": false,
+            "emit": true
+        }
+    ],
+    "dispatchOfficerReturned": [
+        {
+            "label": "menubar.dispatchOfficerReturned.receive",
+            "commandName": "ReceiveDispatch"
+        },
+        {
+            "label": "menubar.dispatchOfficerReturned.resend",
+            "commandName": "ResendDispatch"
+        },
+        {
+            "label": "menubar.dispatchOfficerReturned.viewReminders",
+            "commandName": "ViewReminders",
+            "emit": true
+        }
+    ],
+    "dispatchCruSent": [
+        {
+            "label": "menubar.dispatchCruSent.printEnvelope",
+            "commandName": "PrintEnvelope"
+        }
+    ],
+    "dispatchCruInbox": [
+        {
+            "label": "menubar.dispatchCruInbox.receive",
+            "commandName": "ReceiveDispatch"
+        },
+        {
+            "label": "menubar.dispatchCruInbox.return",
+            "commandName": "ReturnDispatch"
+        }
+    ],
+    "issueView": [
+        {
+            "label": "menubar.dispatchOfficerSent.createReminders",
+            "commandName": "CreateReminder",
+            "restrictedForMultiple": false,
+            "emit": true
+        },
+        {
+            "label": "menubar.dispatchOfficerSent.viewReminders",
+            "commandName": "ViewReminders",
+            "restrictedForMultiple": false,
+            "emit": true
+        }
+    ],
+    "tocIssueView": [
+        {
+            "label": "menubar.dispatchOfficerSent.viewReminders",
+            "commandName": "ViewReminders",
+            "restrictedForMultiple": false,
+            "emit": true
+        },
+        {
+            "label": "menubar.dispatchOfficerSent.viewVersions",
+            "commandName": "ViewVersions",
+            "restrictedForMultiple": false,
+            "emit": true
+        }
+    ],
+    "fileParked": [
+        {
+            "label": "menubar.fileParked.unparkFile",
+            "emit": true,
+            "commandName": "unparkFile"
+        }
+    ],
+    "acknowledgementSent": [
+        {
+            "label": "menubar.acknowledgementSent.reGenerate",
+            "commandName": "ReGenerateAcknowlegement",
+            "queryParams": {
+                "type": "REGENERATE"
+            },
+            "restrictedForMultiple": true
+        }
+    ],
+    "emdGroup": [
+        {
+            "label": "menubar.emdGroup.delete",
+            "commandName": "EmdGroupDelete",
+            "restrictedForMultiple": false
+        }
+    ],
+    "dispatchFollowupList": [
+        {
+            "label": "menubar.dispatchFollowupList.close",
+            "emit": true,
+            "commandName": "CloseFollowup",
+            "restrictedForMultiple": false
+        }
+    ],
+    "dscBulkDeactivation": [
+        {
+            "label": "menubar.dscRegistration.deactivate",
+            "emit": true,
+            "commandName": "Deactivate",
+         "restrictedForMultiple": false
+        }
+    ],
+    "fileClosed": [
+        {
+            "label": "menubar.fileClosed.reopen",
+            "emit": true,
+            "commandName": "reopenFile",
+            "applicableForRoles": [
+                "CLOSING_APPROVER"
+            ]
+        },
+        {
+            "label": "menubar.fileClosed.sendForReopeningApproval",
+            "emit": true,
+            "commandName": "sendForReopeningApproval",
+            "restrictedForRoles": [
+                "CLOSING_APPROVER"
+            ]
+        },
+        {
+            "label": "menubar.fileClosed.markAsEmphemeral",
+            "emit": true,
+            "commandName": "markAsEmphemeral"
+           
+        },
+        {
+            "label": "menubar.fileClosed.editCloseDate",
+            "emit": true,
+            "commandName": "editCloseDate",
+             "restrictedForNature": "E"
+            
+           
+        }
+    ],
+    "bulkSign": [
+        {
+            "label": "menubar.bulkSign.remove",
+            "emit": true,
+            "commandName": "onRemoveBulkSign"
+        } 
+    ],
+    "recordingApproval": [
+        {
+            "label": "menubar.recordingApproval.cancel",
+            "emit": true,
+            "commandName": "cancel"
+        }
+    ],
+    "reopeningApproval": [
+        {
+            "label": "menubar.reopeningApproval.cancel",
+            "emit": true,
+            "commandName": "cancel"
+        }
+    ],
+    "sentToDRR": [
+        {
+            "label": "menubar.sentToDRR.requestBack",
+            "emit": true,
+            "commandName": "onRequestBack"
+        } 
+    ],
+    "recordingAndReviewApproval": [
+        {
+            "label": "menubar.recordingAndReviewApproval.approve",
+            "emit": true,
+            "commandName": "onApproveRequest"
+        },
+        {
+            "label": "menubar.recordingAndReviewApproval.reject",
+            "emit": true,
+            "commandName": "onRejectRequest"
+        }
+    ],"returnedRecords": [
+        {
+            "label": "menubar.returnRecord.receive",
+            "emit": true,
+            "commandName": "receive"
+        } 
+    ],
+    "receiveRequest": [
+        {
+            "label": "menubar.receiverequest.accept",
+            "emit": true,
+            "commandName": "onAcceptRequest"
+            
+        },
+        {
+            "label": "menubar.receiverequest.decline",
+            "emit": true,
+            "commandName": "onDeclineRequest"
+        }
+    ],
+    "reviewInitiated": [
+        {
+            "label": "menubar.reviewInitiated.revise",
+            "emit": true,
+            "commandName": "onReviseRequest"
+           
+        },
+        {
+            "label": "menubar.reviewInitiated.revoke",
+            "emit": true,
+            "commandName": "RevokeRequest"
+            
+        },
+        {
+            "label": "menubar.reviewInitiated.complete",
+            "emit": true,
+            "commandName": "onCompleteReview"
+            
+        }
+    ],"recordedFiles": [
+        {
+            "label": "menubar.recordedFiles.sendToDRR",
+            "emit": true,
+            "commandName": "onSendToDRR"
+        }
+    ],
+    "ephemeralfiles": [
+        {
+           "label": "menubar.ephemeralfiles.unMark",
+            "emit": true,
+            "commandName": "onUnMark" 
+        }
+    ],
+    "auditViewInbox": [
+        {
+            "icon": "./assets/images/ico_file_home.png",
+            "label": "File",
+            "commandName": "GoFileHome",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.movement",
+            "commandName": "ViewMovementHistory",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.detail",
+            "commandName": "ViewFileDetail",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.actionDetails",
+            "emit": true,
+            "commandName": "ViewActionDetails"
+        },
+        {
+            "commandName": "ViewLinkedFiles",
+            "label": "menubar.fileView.viewlinkedFile",
+            "emit": true
+        },
+        {
+            "label": "menubar.fileView.attach",
+            "visible": true,
+            "items": [
+                {
+                    "label": "menubar.fileView.attachFile",
+                    "commandName": "ViewAttachedFiles",
+                    "emit": true
+                },
+                {
+                    "label": "menubar.fileView.attachReceipt",
+                    "commandName": "ViewAttachedReceipts",
+                    "emit": true
+                }
+            ]
+        }
+    ],
+    "auditInbox": [
+        {
+            "label": "menubar.auditInbox.complete",
+            "emit": true,
+            "commandName": "completeAudit"
+        },
+        {
+            "label": "menubar.auditInbox.return",
+            "emit": true,
+            "commandName": "returnAuditFile"
+        }
+
+    ],
+    "auditPendingRequest" : [
+        {
+            "label" : "menubar.auditPendingRequest.cancelFileRequest",
+            "emit": true,
+            "commandName":"cancelFileRequest"
+        }
+    ]
+    
+}
