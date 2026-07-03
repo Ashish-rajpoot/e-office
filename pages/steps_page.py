@@ -604,6 +604,10 @@ class Steps:
             Step(self.click_recent_10_tab, 2),
             Step(
                 lambda: self.select_recent_user(
+                    name=os.getenv("PD_TARGET_NAME"),
+                    marking_abbr=os.getenv("PD_TARGET_ABBR"),
+                    section=os.getenv("PD_TARGET_SECTION")
+                ) if user_id == os.getenv("SPECIAL_USER_ID") else self.select_recent_user(
                     name=os.getenv("TARGET_NAME"),
                     marking_abbr=os.getenv("TARGET_ABBR"),
                     section=os.getenv("TARGET_SECTION")

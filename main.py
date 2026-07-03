@@ -23,7 +23,7 @@ import os
 # --------------------------------------------------
 
 USER_DATA_FILE = "data/userdata.xlsm"
-SPECIAL_USER_ID = "9412430321"
+SPECIAL_USER_ID = os.getenv("SPECIAL_USER_ID", "9412430321")
 MAX_RETRIES = 3
 
 clear_screenshots()
