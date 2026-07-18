@@ -598,8 +598,8 @@ class Steps:
             Step(self.save_draft, 3),
             Step(self.click_approve, 2),
             Step(self.confirm_approval, 3),
-            # Step(self.click_dsc_sign, 2),
-            # Step(self.select_dsc_custom, 0),
+            Step(self.click_dsc_sign, 2),
+            Step(self.select_dsc_custom, 0),
             Step(self.click_send_menu, 2),
             Step(self.click_recent_10_tab, 2),
             Step(

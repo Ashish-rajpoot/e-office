@@ -15,7 +15,7 @@ from utils.screenshot import take_screenshot
 from utils.clear_screenshots import clear_screenshots
 from utils.excel_writer import write_login_status
 from utils.excel_reader import get_all_users
-
+from time import sleep
 import os
 
 # --------------------------------------------------
@@ -283,3 +283,10 @@ else:
 print(
     "\nExecution Completed."
 )
+
+
+# All users completed - shutdown PC
+# print("All users processed. Shutting down PC...")
+# sleep(5)
+
+# os.system("shutdown /s /t 0")   # Windows shutdown
